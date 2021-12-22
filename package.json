@@ -1,0 +1,20 @@
+{
+  "name": "ivm-sandbox",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "isolated-vm": "^4.3.6"
+  },
+  "devDependencies": {
+    "ava": "^3.15.0",
+    "prettier": "^2.5.1"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "ava": {
+    "serial": true
+  }
+}
